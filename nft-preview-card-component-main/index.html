@@ -4,17 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="CSS/style.css">
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css
-  ">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js
-  "></script> -->
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
       font-size: 11px;
@@ -30,54 +22,44 @@
 
 <body class="bg">
 
-
-  <div class="card">
+  <main class="card" role="main">
     <div class="img">
-      <img src="images/image-equilibrium.jpg" alt="Equilibrium" id="nft">
+      <img src="images/image-equilibrium.jpg" alt="Equilibrium" id="nft" role="img">
     </div>
-    <img src="images/icon-view.svg" alt="olho" id="view">
-    <div class="card-body">
-    
+    <!-- -------svg--------- -->
+    <img src="images/icon-view.svg" alt="olho" id="view" role="img">
+  
+    <div class="card-body" role="article">
       <h5 class="card-title"> Equilibrium #3429</h5>
-      <p class="card-text">Our Equilibrium collection promotes balance and calm.</p>
-
-
-      <div class="dados">
+      <p class="card-text" role="definition">Our Equilibrium collection promotes balance and calm.</p>
+      <!-- -------data-card--------- -->
+      <div class="dados" role="data">
+  
         <div class="dados1">
           <img src="images/icon-ethereum.svg" alt="">
           <p>0.041ETH</p>
         </div>
+  
         <div class="dados2">
           <img src="images/icon-clock.svg" alt="">
           <p>3 days left</p>
         </div>
       </div>
-
+      <!-- ------line-------- -->
       <div class="divider"></div>
-
-      <div class="footer">
+      <!---------footer card-------- -->
+      <div class="footer" role="footer">
         <img src="images/image-avatar.png" alt="">
-
-        <a href="#">
-          <span class="create">Creation of</span> Jules Wyvern</a>
+        <a href="#"><span class="create">Creation of</span> Jules Wyvern</a>
       </div>
     </div>
-  </div>
-
-
-  </div>
-
-
-
-
-
-
-
-
-  <div class="attribution">
+  </main>
+  
+  <footer class="attribution" role="contentinfo">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Wagner Nazario</a>.
-  </div>
+  </footer>
+
 </body>
 
 </html>
