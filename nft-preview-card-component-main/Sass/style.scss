@@ -173,9 +173,9 @@
 
 
 .attribution{
-    position: absolute;
-    bottom: 10px;
-    left: 37%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
     font-size: 14px;
 
 }
@@ -183,10 +183,10 @@
 
 @media (min-width: 320px) and (max-width: 425px){
     .attribution{
-        margin: auto;
-        position: relative;
-        left: auto;
-        bottom: 30px;
+       
+        display:flex;
+        justify-content:center;
+        align-items: center;
 
     }
 
@@ -194,8 +194,9 @@
 
 @media  (max-width: 1336px){
     .attribution{
-        margin: auto;
-    }
+        display:flex;
+        justify-content:center;
+        align-items: center;    }
 }
 
 
