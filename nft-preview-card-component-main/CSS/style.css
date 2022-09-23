@@ -134,8 +134,7 @@
 .attribution {
   position: absolute;
   bottom: 10px;
-  left: 500px;
-  margin: auto;
+  left: 37%;
   font-size: 14px;
 }
 
@@ -150,8 +149,8 @@
 @media (max-width: 1336px) {
   .attribution {
     margin: auto;
-    position: relative;
-    left: auto;
+    position: absolute;
+    left: 40%;
   }
 }
 
