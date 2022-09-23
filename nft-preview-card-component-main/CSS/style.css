@@ -149,8 +149,6 @@
 @media (max-width: 1336px) {
   .attribution {
     margin: auto;
-    position: absolute;
-    left: 40%;
   }
 }
 
