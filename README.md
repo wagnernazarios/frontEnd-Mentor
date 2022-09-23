@@ -11,7 +11,7 @@ link: https://wagnernazarios.github.io/frontEnd-Mentor/nft-preview-card-componen
 Não ficou exatamente como deveria mas eu tentei. 
 E eu pul praticar o SCSS que eu queria.
 
-### Profile Card
+### 2 - Profile Card
 
 link: https://wagnernazarios.github.io/frontEnd-Mentor/profile-card-component-main/index.html
 
