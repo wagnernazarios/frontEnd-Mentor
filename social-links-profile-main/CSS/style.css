@@ -18,7 +18,7 @@ body {
 
   main {
     width: 375px;
-    height: 100vh;
+    min-height: 100vh;
 
     .profile {
       padding: 24px;
@@ -53,11 +53,11 @@ body {
         .profile__name {
           color: #fff;
           font-weight: 500;
-          font-size: 1.68em;
+          font-size: 1.78em;
         }
         .profile__local {
           color: #c4f82a;
-          font-size: 0.9em;
+          font-size: 0.7em;
         }
         .profile__description {
           color: #fff;
@@ -116,6 +116,10 @@ body {
         height: 611px;
         padding: 40px;
 
+        .profile__local {
+          font-size: 0.7em;
+        }
+
         .profile__links {
           gap: 16px;
 
@@ -140,12 +144,18 @@ body {
     align-items: center;
     main {
       height: 960px;
+      max-width: 1440px;
 
       .profile {
         width: 384px;
         height: 611px;
         padding: 40px;
 
+        .profile__text {
+          .profile__local {
+            font-size: 0.7em;
+          }
+        }
         .profile__links {
           gap: 16px;
 
