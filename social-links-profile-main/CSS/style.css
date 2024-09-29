@@ -70,33 +70,26 @@ body {
         justify-content: center;
         align-items: center;
         gap: 16px;
+
         .btn {
           width: 279px;
           height: 48px;
           background-color: #333;
           border-radius: 10px;
-
-          a {
-            font-weight: bold;
-            color: #fff;
-          }
+          font-weight: bold;
+          color: #fff;
 
           &:hover {
             background-color: #c4f82a;
             transition: 0.5s ease-out;
-            a {
-              color: #141414;
-              transition: 0.5s ease-out;
-            }
+            color: #141414;
           }
         }
       }
     }
   }
   .attribution {
-    font-size: 0.6em;
-    position: fixed;
-    bottom: 5px;
+    font-size: 1em;
     text-align: center;
 
     a {
@@ -105,17 +98,19 @@ body {
   }
 }
 
-@media screen and (max-width: 840px) and (min-width: 400px) {
+@media screen and (max-width: 840px) and (min-width: 428px) {
   body {
     display: flex;
     align-items: center;
     justify-content: center;
+
     main {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      height: 1064px;
       width: 768px;
+
       .profile {
         width: 456px;
         height: 611px;
@@ -123,6 +118,7 @@ body {
 
         .profile__links {
           gap: 16px;
+
           .btn {
             width: 376px;
             border-radius: 8px;
@@ -137,17 +133,14 @@ body {
   }
 }
 
-@media screen and (max-width: 1440px) and (min-width: 900px) {
+@media screen and (max-width: 1440px) and (min-width: 960px) {
   body {
     display: flex;
-    align-items: center;
     justify-content: start;
+    align-items: center;
     main {
-      display: flex;
-      align-items: center;
-      justify-content: start;
       height: 960px;
-      width: 1440;
+
       .profile {
         width: 384px;
         height: 611px;
@@ -155,16 +148,17 @@ body {
 
         .profile__links {
           gap: 16px;
+
           .btn {
             width: 304px;
+            height: 45px;
             border-radius: 8px;
           }
         }
       }
     }
-
     .attribution {
-      position: relative;
+      margin-top: -50px;
     }
   }
 }
