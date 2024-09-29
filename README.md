@@ -19,7 +19,7 @@ link: [Clique aqui](https://wagnernazarios.github.io/frontEnd-Mentor/profile-car
 Nunca mais vou achar que manjo de algo até exercitar com um projeto sozinho.
 
 
-### 2 - Profile linktree
+### 3 - Profile linktree
 
 link: [Clique aqui](https://wagnernazarios.github.io/frontEnd-Mentor/social-links-profile-main/index.html).
 
