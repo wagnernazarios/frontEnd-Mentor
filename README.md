@@ -23,6 +23,6 @@ Nunca mais vou achar que manjo de algo até exercitar com um projeto sozinho.
 
 link: [Clique aqui](https://wagnernazarios.github.io/frontEnd-Mentor/social-links-profile-main/index.html).
 
-#### Esse foi bem mais facil, pois acabei 1h30m mas foi interessante essse background.
+#### Nesse tentei iniciar com Mobile first mas na hora do modelo desktop não deu certo, mas vou ajustar.
 
-Nunca mais vou achar que manjo de algo até exercitar com um projeto sozinho.
+Nunca mais vou ficar muito tempo sem praticar
