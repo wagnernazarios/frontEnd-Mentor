@@ -16,86 +16,155 @@ body {
   flex-direction: column;
   background-color: #141414;
 
-  main.profile {
-    padding: 24px;
-    margin: 80px 24px;
-    width: 327px;
-    height: 579px;
-    background-color: #141414;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #1f1f1f;
-    border-radius: 12px;
-    gap: 24px;
+  main {
+    width: 375px;
+    height: 100vh;
 
-    .profile__text {
+    .profile {
+      padding: 24px;
+      margin: 90px 24px;
+      width: 327px;
+      height: 579px;
+      background-color: #141414;
       display: flex;
-      flex-direction: column;
       align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #1f1f1f;
+      border-radius: 12px;
       gap: 24px;
 
-      .profile__pic {
-        border-radius: 50%;
-        width: 88px;
-        height: 88px;
-        margin: -4px 0 15px 0;
-      }
+      .profile__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
 
-      .details {
-        margin: -20px 0;
-      }
-      .profile__name {
-        color: #fff;
-        font-weight: 500;
-        font-size: 1.68em;
-      }
-      .profile__local {
-        color: #c4f82a;
-        font-size: 0.9em;
-      }
-      .profile__description {
-        color: #fff;
-        font-size: 0.95em;
-      }
-    }
-    .profile__links {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 16px;
-      .btn {
-        width: 279px;
-        height: 48px;
-        background-color: #333;
-        border-radius: 10px;
-
-        a {
-          font-weight: bold;
-          color: #fff;
+        .profile__pic {
+          border-radius: 50%;
+          width: 88px;
+          height: 88px;
+          margin: -4px 0 15px 0;
         }
 
-        &:hover {
-          background-color: #c4f82a;
-          transition: 0.5s ease-out;
+        .details {
+          margin: -20px 0;
+        }
+        .profile__name {
+          color: #fff;
+          font-weight: 500;
+          font-size: 1.68em;
+        }
+        .profile__local {
+          color: #c4f82a;
+          font-size: 0.9em;
+        }
+        .profile__description {
+          color: #fff;
+          font-size: 0.95em;
+        }
+      }
+      .profile__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        .btn {
+          width: 279px;
+          height: 48px;
+          background-color: #333;
+          border-radius: 10px;
+
           a {
-            color: #141414;
+            font-weight: bold;
+            color: #fff;
+          }
+
+          &:hover {
+            background-color: #c4f82a;
             transition: 0.5s ease-out;
+            a {
+              color: #141414;
+              transition: 0.5s ease-out;
+            }
           }
         }
       }
     }
   }
-
-  footer.attribution {
-    font-size: 0.5em;
-    margin: 20px auto;
+  .attribution {
+    font-size: 0.1em;
+    position: fixed;
+    bottom: 5px;
     text-align: center;
 
     a {
       color: #c4f82a;
+    }
+  }
+}
+
+@media screen and (max-width: 840px) and (min-width: 400px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 768px;
+      .profile {
+        width: 456px;
+        height: 611px;
+        padding: 40px;
+
+        .profile__links {
+          gap: 16px;
+          .btn {
+            width: 376px;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+
+    .attribution {
+      font-size: 1em;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 900px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      height: 960px;
+      width: 1440;
+      .profile {
+        width: 384px;
+        height: 611px;
+        padding: 40px;
+
+        .profile__links {
+          gap: 16px;
+          .btn {
+            width: 304px;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+
+    .attribution {
+      position: relative;
     }
   }
 }
