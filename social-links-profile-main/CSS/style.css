@@ -4,7 +4,7 @@
   text-decoration: none;
   list-style: none;
   border: none;
-  font-family: "Inter", system-ui;
+  font-family: "Inter", system-ui, sans-serif;
   box-sizing: border-box;
   color: #fff;
 }
@@ -15,9 +15,10 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #141414;
-  .profile {
+
+  main.profile {
     padding: 24px;
-    margin: 100px 24px;
+    margin: 80px 24px;
     width: 327px;
     height: 579px;
     background-color: #141414;
@@ -88,7 +89,7 @@ body {
     }
   }
 
-  .attribution {
+  footer.attribution {
     font-size: 0.5em;
     margin: 20px auto;
     text-align: center;
