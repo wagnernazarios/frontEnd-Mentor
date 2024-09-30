@@ -26,3 +26,10 @@ link: [Clique aqui](https://wagnernazarios.github.io/frontEnd-Mentor/social-link
 #### Nesse tentei iniciar com Mobile first mas na hora do modelo desktop não deu certo, mas vou ajustar.
 
 Nunca mais vou ficar muito tempo sem praticar
+
+### 4 - Workit Landing page
+
+link: [Clique aqui](https://wagnernazarios.github.io/frontEnd-Mentor/workit-landing-page/index.html).
+
+#### codando o modo desktop.
+
