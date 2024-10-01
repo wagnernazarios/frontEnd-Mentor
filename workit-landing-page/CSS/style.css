@@ -257,7 +257,7 @@ footer {
 
 @media screen and (max-width: 838px) and (min-width: 386px) {
   header {
-    width: 838px;
+    width: 868px;
     height: 540px;
     padding: 0 44px;
 
@@ -311,7 +311,7 @@ footer {
       .ornament-1 {
         display: block;
         position: absolute;
-        width: 838px;
+        width: 888px;
         height: 56px;
         bottom: -3px;
       }
