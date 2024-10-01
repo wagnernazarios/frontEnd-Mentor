@@ -32,6 +32,7 @@ header {
 
   img {
     width: 95px;
+    height: 24px;
   }
 
   nav {
@@ -63,7 +64,7 @@ header {
     h1 {
       margin-top: 56px;
       text-align: center;
-      font-size: 2.5rem;
+      font-size: 38px;
       font-family: "Fraunces", serif;
       font-optical-sizing: auto;
       font-weight: 500;
@@ -92,6 +93,17 @@ header {
     height: 44px;
     position: absolute;
     bottom: -1px;
+  }
+
+  .ornament-1 {
+    display: none;
+  }
+
+  .pattern-1 {
+    display: none;
+  }
+  .pattern-2 {
+    display: none;
   }
 
   .illustration {
@@ -141,9 +153,9 @@ header {
     }
 
     p {
-      max-height: 87px;
+      height: 87px;
       font-family: "manrope", serif;
-      font-size: 17px;
+      font-size: 16px;
       margin: 16px 0 16px 0;
     }
 
@@ -175,7 +187,7 @@ header {
     width: 335px;
     h2 {
       margin-top: 32px;
-      font-size: 28px;
+      font-size: 32px;
       font-family: fraunces, serif;
       font-weight: 400;
     }
@@ -235,9 +247,123 @@ footer {
       align-items: center;
       justify-content: space-around;
       gap: 28px;
-      img {
+      .svg {
         width: 20px;
         height: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 838px) and (min-width: 386px) {
+  header {
+    width: 838px;
+    height: 540px;
+    padding: 0 44px;
+
+    nav {
+      margin: 24px 0 0 0;
+      align-items: center;
+      a {
+        font-size: 18px;
+      }
+    }
+
+    #hero {
+      width: 768px;
+      align-items: center;
+      height: 471px;
+      position: relative;
+
+      h1 {
+        margin: 56px 0 0 0;
+        width: 432px;
+        font-size: 48px;
+      }
+
+      .btn {
+        width: 162px;
+        height: 56px;
+      }
+
+      .pattern-1 {
+        display: block;
+        width: 370px;
+        height: 315px;
+        position: absolute;
+        left: -260px;
+        top: 10px;
+      }
+
+      .pattern-2 {
+        display: block;
+        width: 270px;
+        height: 215px;
+        position: absolute;
+        right: -170px;
+        bottom: 80px;
+      }
+
+      .ornament {
+        display: none;
+      }
+
+      .ornament-1 {
+        display: block;
+        position: absolute;
+        width: 838px;
+        height: 56px;
+        bottom: -3px;
+      }
+
+      .illustration {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: -145px;
+        img {
+          width: 514px;
+          height: 296px;
+        }
+      }
+    }
+  }
+
+  #values {
+    margin-top: 160px;
+    width: 768px;
+    height: 524px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    .value {
+      width: 680px;
+      height: 418px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .number {
+        width: 80px;
+
+        margin: 0 32px 32px 0;
+      }
+
+      .texts {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+
+        .subtitle {
+          text-align: start;
+        }
+      }
+
+      .last {
+        margin-bottom: 32px;
       }
     }
   }
