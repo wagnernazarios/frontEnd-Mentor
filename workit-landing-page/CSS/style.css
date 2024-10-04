@@ -31,14 +31,15 @@ header {
   background-color: #24053e;
 
   nav {
-    img {
-      width: 95px;
-      height: 24px;
-    }
     height: 67px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    img {
+      width: 95px;
+      height: 24px;
+    }
 
     a {
       font-size: 18px;
@@ -95,6 +96,9 @@ header {
   }
 
   .ornament-1 {
+    display: none;
+  }
+  .ornament-2 {
     display: none;
   }
 
@@ -217,6 +221,9 @@ header {
         border: 2px solid #44ffa1;
         background-color: transparent;
       }
+    }
+    .circle {
+      display: none;
     }
   }
 }
@@ -397,10 +404,13 @@ footer {
         height: 116px;
       }
       .btn {
+        padding: 15px;
         margin-top: 32px;
       }
 
       .circle {
+        margin: 0;
+        display: block;
         width: 504px;
         height: 390px;
         position: relative;
@@ -409,17 +419,90 @@ footer {
           width: 243px;
           height: 227px;
           position: absolute;
-          left: 195px;
-          top: -65px;
+          left: 205px;
+          top: -85px;
         }
       }
     }
   }
 }
 
-@media screen and (max-width: 1450px) and (min-width: 830px) {
+@media screen and (max-width: 1440px) and (min-width: 839px) {
   header {
     width: 1440px;
-    height: 930px;
+    height: 771px;
+    padding: 0 80px;
+    justify-content: center;
+    align-items: center;
+
+    gap: 56px;
+
+    nav {
+      width: 1120px;
+      height: 91px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+        font-size: 1.4rem;
+      }
+    }
+
+    #hero {
+      margin-top: -56px;
+      width: 1440px;
+      height: 608px;
+      padding: 56px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+
+      h1 {
+        margin-top: 0;
+        width: 635px;
+        height: 256px;
+        font-size: 5rem;
+      }
+
+      .btn {
+        margin: 0;
+        width: 162px;
+        height: 46px;
+      }
+      .img__phone {
+        width: 767px;
+        height: 411px;
+        bottom: -252px;
+        right: 310px;
+      }
+
+      .ornament {
+        display: none;
+      }
+      .ornament {
+        display: none;
+      }
+      .ornament-2 {
+        width: 1440px;
+        position: absolute;
+        bottom: -40px;
+      }
+
+      .pattern-1 {
+        display: block;
+      }
+
+      .pattern-2 {
+        display: block;
+      }
+    }
+  }
+
+  #values {
+    width: 1120px;
+    height: 306px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
