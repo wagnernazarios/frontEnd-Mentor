@@ -402,3 +402,10 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 1450px) and (min-width: 830px) {
+  header {
+    width: 1440px;
+    height: 930px;
+  }
+}
