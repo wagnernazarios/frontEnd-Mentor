@@ -30,12 +30,11 @@ header {
   height: 481px;
   background-color: #24053e;
 
-  img {
-    width: 95px;
-    height: 24px;
-  }
-
   nav {
+    img {
+      width: 95px;
+      height: 24px;
+    }
     height: 67px;
     display: flex;
     align-items: center;
@@ -339,16 +338,15 @@ footer {
     flex-wrap: nowrap;
 
     .value {
-      width: 680px;
+      width: 728px;
       height: 418px;
       flex-direction: row;
       align-items: center;
       justify-content: center;
 
       .number {
-        width: 80px;
-
-        margin: 0 32px 54px 0;
+        width: 70px;
+        margin: 0 32px 64px 0;
       }
 
       .texts {
@@ -363,8 +361,11 @@ footer {
       }
 
       .last {
-        margin-bottom: 32px;
+        margin-bottom: 18px;
       }
     }
+  }
+
+  #cta {
   }
 }
