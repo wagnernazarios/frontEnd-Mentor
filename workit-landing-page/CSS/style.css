@@ -367,5 +367,38 @@ footer {
   }
 
   #cta {
+    position: relative;
+    width: 680px;
+    height: 558px;
+
+    img {
+      width: 280px;
+      height: 280px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .founder__presentation {
+      padding: 0 48px;
+      width: 504px;
+      height: 390px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      align-items: flex-start;
+
+      h2 {
+        font-size: 48px;
+      }
+      p {
+        text-align: left;
+        width: 408px;
+        height: 116px;
+      }
+      .btn {
+        margin-top: 32px;
+      }
+    }
   }
 }
