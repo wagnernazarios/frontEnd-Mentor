@@ -399,6 +399,20 @@ footer {
       .btn {
         margin-top: 32px;
       }
+
+      .circle {
+        width: 504px;
+        height: 390px;
+        position: relative;
+
+        .pattern-1 {
+          width: 243px;
+          height: 227px;
+          position: absolute;
+          left: 195px;
+          top: -65px;
+        }
+      }
     }
   }
 }
