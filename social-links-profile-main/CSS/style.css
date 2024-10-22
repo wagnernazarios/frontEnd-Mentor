@@ -19,7 +19,6 @@ body {
 
   main {
     width: 375px;
-    min-height: 100vh;
 
     .profile {
       padding: 24px;
@@ -144,12 +143,11 @@ body {
     justify-content: start;
     align-items: center;
     main {
-      height: 960px;
       max-width: 1440px;
 
       .profile {
         width: 384px;
-        height: 611px;
+        height: 711px;
         padding: 40px;
 
         .profile__text {
