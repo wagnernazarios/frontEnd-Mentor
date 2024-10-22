@@ -134,6 +134,7 @@ header {
   color: #24053e;
 
   .value {
+    width: 355px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,13 +142,12 @@ header {
 
     .number {
       font-family: "Fraunces", serif;
-
       margin: 32px 0 24px 0;
+      padding-top: 5px;
       width: 48px;
       height: 48px;
       border: 2px solid;
       border-radius: 50%;
-      padding-top: 5px;
     }
 
     .subtitle {
@@ -336,7 +336,7 @@ footer {
   }
 
   #values {
-    margin-top: 160px;
+    margin-top: 180px;
     width: 768px;
     height: 524px;
     justify-content: center;
@@ -345,11 +345,9 @@ footer {
     flex-wrap: nowrap;
 
     .value {
-      width: 728px;
-      height: 418px;
       flex-direction: row;
-      align-items: center;
-      justify-content: center;
+      width: 698px;
+      height: 418px;
 
       .number {
         width: 70px;
@@ -363,12 +361,13 @@ footer {
         justify-items: center;
 
         .subtitle {
+          margin-bottom: 28px;
           text-align: start;
         }
       }
 
       .last {
-        margin-bottom: 18px;
+        margin-bottom: 0;
       }
     }
   }
@@ -377,6 +376,7 @@ footer {
     position: relative;
     width: 680px;
     height: 558px;
+    padding: 112px 80px 0 80px;
 
     img {
       width: 280px;
@@ -497,7 +497,7 @@ footer {
         width: 370px;
         height: 315px;
         position: absolute;
-        left: -210px;
+        left: -150px;
         top: 10px;
       }
 
@@ -510,22 +510,73 @@ footer {
         bottom: 120px;
       }
     }
+  }
 
-    #values {
-      padding: 88px 0;
-      width: 1120px;
+  #values {
+    padding: 88px 80px 144px 80px;
+    width: 1440px;
+    height: 538px;
+    flex-direction: row;
+    column-gap: 32px;
+
+    .value {
+      width: 352px;
       height: 306px;
-      gap: 32px;
-      text-align: center;
-      flex-direction: row;
 
-      .value {
-        width: 352px;
-        height: 306px;
+      .number {
+        margin-bottom: 56px;
+        margin-top: 0;
+      }
+
+      .subtitle {
+        margin-bottom: 28px;
+      }
+
+      p {
+        font-size: 18px;
       }
 
       .last {
-        margin-bottom: 0;
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  #cta {
+    margin: 0;
+    position: relative;
+    width: 1120px;
+    height: 579px;
+
+    img {
+      width: 477px;
+      height: 477px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .founder__presentation {
+      padding: 64px;
+      width: 730px;
+      height: 411px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      align-items: flex-start;
+      h2 {
+        margin-top: 0;
+        font-size: 56px;
+      }
+      p {
+        width: 602px;
+        height: 96px;
+        text-align: left;
+        line-height: 28px;
+      }
+
+      .btn {
+        margin: 0;
       }
     }
   }
